@@ -2,3 +2,4 @@ streamlit
 influxdb3-python
 pandas
 altair
+python-dotenv
