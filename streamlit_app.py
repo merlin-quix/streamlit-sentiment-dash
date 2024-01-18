@@ -12,7 +12,6 @@ os.environ["INFLUXDB_TOKEN"] = st.secrets.INFLUXDB_TOKEN
 os.environ["INFLUXDB_HOST"] = st.secrets.INFLUXDB_HOST
 os.environ["INFLUXDB_ORG"] = st.secrets.INFLUXDB_ORG
 os.environ["INFLUXDB_DATABASE"] = st.secrets.INFLUXDB_DATABASE
-os.environ["GRPC_DEFAULT_SSL_ROOTS_FILE_PATH"] = r"C:\_MYHOME\Documents\_GITHUB\_QUIX\template-llm-support-tomas\cacert.pem"
 os.environ["style_sheet"] = "style.css"
 os.environ["chat_count"] ="3"
 measurement_name = "conversations"
